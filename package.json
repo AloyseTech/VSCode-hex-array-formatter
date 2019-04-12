@@ -12,16 +12,22 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.hexarrayformat"
+		"onCommand:AloyseTech.hexarrayformat"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.hexarrayformat",
+				"command": "AloyseTech.hexarrayformat",
 				"title": "Toggle Hex Array Format"
 			}
-		]
+		],
+		"keybindings":[
+            {
+                "command": "AloyseTech.hexarrayformat",
+                "key": "ctrl-alt-h"
+            }
+        ]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
