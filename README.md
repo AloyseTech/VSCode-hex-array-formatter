@@ -1,6 +1,9 @@
 # hex-array-formatter
 
-This is the README for your extension "hex-array-formatter". After writing up a brief description, we recommend including the following sections.
+VS Code extension to quickly toggle hex array presentation format between commonly used format (hex string, C array etc).
+
+Example :
+AABBCCDD => AA BB CC DD => AA:BB:CC:DD => 0xAA, 0xBB, 0xCC, 0xDD
 
 ## Features
 
