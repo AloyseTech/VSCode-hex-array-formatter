@@ -4,7 +4,7 @@
 	"repository": {"url": "https://github.com/AloyseTech/VSCode-hex-array-formatter.git"},
 	"displayName": "Hex Array Formatter",
 	"description": "Automatic formatter for hex array using standard presentation",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.33.0"
 	},
